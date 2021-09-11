@@ -13,7 +13,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        new SendPrint("192.168.1.100", "Testing content", new Response() {
+            new SendPrint("192.168.1.100", "Testing content", new Response() {
             @Override
             public void success(int status_code, String message) {
 
